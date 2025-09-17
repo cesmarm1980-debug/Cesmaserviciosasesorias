@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CESMA - Consorcio Empresarial de Servicios y Múltiples Asesorías</title>
+<style>
+body {
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+line-height: 1.6;
+background: #f9f9f9;
+color: #333;
+}
+header {
+background: #b30000;
+color: #fff;
+padding: 2rem 1.5rem 1.5rem;
+text-align: center;
+}
+header .logo {
+width: 80px;
+margin: auto;
+margin-bottom: 1rem;
+}
+header h1 {
+margin: 0;
+font-size: 2rem;
+}
+nav {
+background: #e60000;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+nav a {
+color: #fff;
+text-decoration: none;
+padding: 1rem;
+display: block;
+font-weight: bold;
+}
+nav a:hover {
+background: #990000;
+}
+section {
+padding: 2rem;
+max-width: 1000px;
+margin: auto;
+}
+h2 {
+color: #b30000;
+margin-bottom: 1rem;
+}
+.services {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 1.5rem;
+}
+.service-card {
+background: #fff;
+padding: 1.5rem;
+border-radius: 8px;
+box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+border-top: 4px solid #e60000;
+}
+form {
+display: grid;
+gap: 1rem;
+max-width: 600px;
+}
+input, textarea, button {
+padding: 0.8rem;
+border: 1px solid #ccc;
+border-radius: 5px;
+font-size: 1rem;
+}
+button {
+background: #e60000;
+color: #fff;
+border: none;
+cursor: pointer;
+font-weight: bold;
+}
+button:hover {
+background: #990000;
+}
+footer {
+background: #b30000;
+color: #fff;
+text-align: center;
+padding: 1.5rem;
+margin-top: 2rem;
+}
+.social a {
+color: #fff;
+margin: 0 10px;
+text-decoration: none;
+font-weight: bold;
+}
+.social a:hover {
+text-decoration: underline;
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">
+<!-- Logo en SVG -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+<circle cx="60" cy="60" r="55" fill="#e60000" stroke="#fff" stroke-width="5"/>
+<text x="50%" y="55%" text-anchor="middle" fill="#fff" font-size="28" font-family="Arial, Helvetica, sans-serif" font-weight="bold" dy=".3em">CESMA</text>
+</svg>
+</div>
+<h1>CESMA</h1>
+<p>Consorcio Empresarial de Servicios y Múltiples Asesorías</p>
+</header>
+
+<nav>
+<a href="#nosotros">Nosotros</a>
+<a href="#servicios">Servicios</a>
+<a href="#contacto">Contacto</a>
+</nav>
+
+<section id="nosotros">
+<h2>Sobre Nosotros</h2>
+<p>
+En <strong>CESMA</strong> somos un consorcio empresarial comprometido con brindar soluciones
+integrales de servicios y asesorías múltiples para empresas y emprendedores.
+Nuestra misión es impulsar el crecimiento sostenible, optimizando procesos y
+generando valor en cada proyecto que acompañamos.
+</p>
+</section>
+
+<section id="servicios">
+<h2>Nuestros Servicios</h2>
+<div class="services">
+<div class="service-card">
+<h3>Consultoría Empresarial</h3>
+<p>Asesoramos en planeación estratégica, gestión de proyectos y procesos de innovación.</p>
+</div>
+<div class="service-card">
+<h3>Servicios Financieros</h3>
+<p>Optimización de recursos, análisis financiero y acompañamiento en inversiones.</p>
+</div>
+<div class="service-card">
+<h3>Capacitación</h3>
+<p>Programas de formación y talleres diseñados para el desarrollo profesional.</p>
+</div>
+<div class="service-card">
+<h3>Asesoría Legal</h3>
+<p>Orientación jurídica y apoyo en cumplimiento normativo empresarial.</p>
+</div>
+</div>
+</section>
+
+<section id="contacto">
+<h2>Contacto</h2>
+<form>
+<input type="text" placeholder="Nombre completo" required>
+<input type="email" placeholder="Correo electrónico" required>
+<textarea rows="5" placeholder="Escribe tu mensaje..." required></textarea>
+<button type="submit">Enviar</button>
+</form>
+</section>
+
+<footer>
+<p>&copy; 2025 CESMA - Consorcio Empresarial de Servicios y Múltiples Asesorías</p>
+<div class="social">
+<a href="#">LinkedIn</a> |
+<a href="#">Facebook</a> |
+<a href="#">Twitter</a>
+</div>
+</footer>
+
+</body>
+</html>
